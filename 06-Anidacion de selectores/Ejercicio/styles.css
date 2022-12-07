@@ -9,16 +9,15 @@
 .container .button::before{
     content: ' Pasar por encima';
     
+    
 }
 
-.container .button:hover{
-    
+.container .button:hover::before{
+    content: ' HECHO';
+    padding: 10px;
     background-color: greenyellow;
     color:#fff;
     cursor:pointer;
     transition: all 0.3s;
 }
 
-.container .button:hover::after{
-    content: ' HECHO';
-}
