@@ -1,0 +1,24 @@
+.container .button{
+    padding: 30px;
+    width: 220px;
+    height: 40px;
+    border-radius:13px;
+    border:none;
+}
+
+.container .button::before{
+    content: ' Pasar por encima';
+    
+}
+
+.container .button:hover{
+    
+    background-color: greenyellow;
+    color:#fff;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+.container .button:hover::after{
+    content: ' HECHO';
+}
