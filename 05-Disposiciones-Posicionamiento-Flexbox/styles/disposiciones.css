@@ -1,0 +1,50 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .box1,
+ .box2 {
+    background-color:orange;
+}
+
+.box{
+    border:1px solid gray;
+    padding: 5px;
+    margin:5px;
+}
+
+/* Posicionamiento relativo - Se posiciona en relación al posicionamiento original */
+.relative{
+    position:relative;
+    left:80px;
+    width: 350px;
+    height: 350px;
+    background-color: bisque;
+}
+
+/* Posicionamiento fijo: se posiciona en relación a la pantalla */
+.fixed{
+    position: fixed;
+    bottom: 1px;
+    left:0px;
+    background-color:greenyellow;
+}
+
+/* Posicionamiento absoluto */
+
+.absoluted{
+    position: absolute;
+    background-color:brown;
+    width: 150px;
+    height: 1950px;
+    text-align: center;
+}
+
+/* Posicionamiento sticky */
+
+.sticky{
+    position:sticky;
+    background-color:blueviolet;
+    color:white;
+    top:0px;
+}

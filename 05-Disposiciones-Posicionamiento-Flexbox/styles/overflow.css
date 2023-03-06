@@ -1,0 +1,7 @@
+.container{
+    background-color:bisque;
+    width: 350px;
+    height: 150px; 
+    padding: 10px;
+    overflow: scroll;
+}

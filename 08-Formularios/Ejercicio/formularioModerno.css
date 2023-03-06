@@ -1,0 +1,159 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #161717;
+}
+
+.container{
+    /* display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:25px; */
+    max-width: 550px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+
+}
+
+h3{
+    color:#fff;
+}
+
+.buttons{
+    display:flex;
+    
+    gap:5px;
+}
+
+.google__btn{
+    font-size: 15px;
+    font-weight: bold;
+    background: #1a73eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+    height: 40px;
+    cursor:pointer;
+    
+}
+
+
+.google__btn:hover{
+    opacity:0.6;
+    transition: all 0.2s;
+}
+
+.twitter__btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 45px;
+    color:rgb(145, 145, 145);
+    background-color:rgb(196, 196, 196);
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    
+    
+}
+
+.twitter__btn:hover{
+    background-color:rgba(225, 225, 225, 0.812);
+    transition: all 0.1s;
+}
+
+.separator{
+    display:flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top:1px solid #ccc;
+
+}
+
+.separator span{
+    color:#8b8b8b;
+}
+
+.section-inputs{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    /* width: 100%; */
+    
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    width: 100%;
+    font-weight: 700;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    color:#fff;;
+    
+}
+
+label input{
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: space-between; */
+    /* background-color: #212121; */
+    border:none;
+    padding: 10px 20px;
+    border-radius:10px;
+    outline: none;
+    font-size:14pt;
+}
+
+label input:hover,
+:focus{
+    background-color: #454045;
+    border:solid 1px #f3f3f4;
+    box-shadow:0 0 4px #8b8b8b;
+    transition: all 0.3s;
+}
+
+.check{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.check span{
+    color:#6e6d7a;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.btn{
+    width: 100%;
+    /* height: 40px;
+    width: 30%; */
+    display:block;
+    padding:15px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.1s ease all;
+    background:#ea4c89;
+    color:#F1EEE9;
+    font-weight: 700;
+    text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+form .grupo input{
+    
+    width: 50%;
+    height: 30px;
+    padding: 10px 0px 10px 40px;
+    outline:none;
+    margin: auto;
+    border:none;
+    border-radius: 2px;
+    border-bottom: 1px solid #c2c2c2;
+    
+}
+
+form{
+    width: 50%;
+    margin:auto;
+    margin-top:200px;
+}
+
+
+form .grupo{
+    position: relative;
+}
+
+form .grupo i{
+    position: absolute;
+    top:17px;
+    margin-right:45px;
+    font-size:24px;
+    
+   
+}
+
+
+
+.input:focus{
+    border-bottom: 1px solid orange;
+}
+
